@@ -1,0 +1,563 @@
+ 'You have assignments that need attention'@
+ 'Add submission'@
+ 'You have not made a submission yet'@
+ 'Allow another attempt'@
+ 'Add a new attempt'@
+ 'This will create a new blank submission for you to work on.'@
+ 'Add a new attempt based on previous submission'@
+ 'This will copy the contents of your previous submission to a new submission for you to work on.'@
+ 'Add group override'@
+ 'Add user override'@
+ 'Allocated Marker'@
+ 'Marker allocated to this submission'@
+ 'Allow the user to continue making submissions to this assignment.'@
+ 'Allow submission changes'@
+ 'Allow submissions from'@
+ 'If enabled, students will not be able to submit before this date. If disabled, students will be able to start submitting right away.'@
+ 'This assignment will accept submissions from <strong>{$a}</strong>'@
+ 'The assignment details and submission form will be available from <strong>{$a}</strong>'@
+ 'Always show description'@
+ 'If disabled, the Assignment Description above will only become visible to students at the "Allow submissions from" date.'@
+ 'Apply grades and feedback to entire group'@
+ 'Add a new assignment'@
+ 'Export own submission'@
+ 'Edit another student\'s submission'@
+ 'Grade assignment'@
+ 'Grant extension'@
+ 'Manage markers allocated to submissions'@
+ 'Review and release grades'@
+ 'Manage assignment overrides'@
+ 'Receive grader submission notifications'@
+ 'Release grades'@
+ 'Reveal student identities'@
+ 'Review grades'@
+ 'View student identities when blind marking is enabled'@
+ 'View grades'@
+ 'Submit assignment'@
+ 'View assignment'@
+ 'Feedback plugin'@
+ 'Feedback plugin'@
+ 'Assignment is due'@
+ '{$a->grader} has posted some feedback on your
+assignment submission for \'{$a->assignment}\'
+
+You can see it appended to your assignment submission:
+
+    {$a->url}'@
+ '<p>{$a->grader} has posted some feedback on your
+assignment submission for \'<i>{$a->assignment}</i>\'.</p>
+<p>You can see it appended to your <a href@
+ '{$a->grader} has posted some feedback on your
+assignment submission for \'{$a->assignment}\' You can see it appended to your submission'@
+ 'Assignment name'@
+ 'Assignment plugins'@
+ 'Assignments per page'@
+ 'Submission plugin'@
+ 'Submission plugin'@
+ 'Attempt {$a->attemptnumber}: {$a->submissionsummary}'@
+ 'Previous attempts'@
+ 'Attempt number'@
+ 'Attempt settings'@
+ 'Attempts reopened'@
+ 'Determines how student submission attempts are reopened. The available options are: <ul><li>Never - The student submission cannot be reopened.</li><li>Manually - The student submission can be reopened by a teacher.</li><li>Automatically until pass - The student submission is automatically reopened until the student achieves the grade to pass value set in the Gradebook (Gradebook setup section) for this assignment.</li></ul>'@
+ 'Manually'@
+ 'Never'@
+ 'Automatically until pass'@
+ 'Availability'@
+ 'Back to assignment'@
+ 'With selected...'@
+ 'Lock all selected submissions?'@
+ 'Grant an extension to all selected submissions?'@
+ 'Unlock all selected submissions?'@
+ 'Revert selected submissions to draft?'@
+ 'Allow another attempt for selected submissions?'@
+ 'Set marking workflow state for all selected submissions?'@
+ 'Set marking allocation for all selected submissions?'@
+ 'Download selected submissions?'@
+ 'lock submissions'@
+ 'unlock submissions'@
+ 'revert submissions to draft'@
+ 'Set allocated marker for {$a} selected user(s).'@
+ 'Set marking workflow state for {$a} selected user(s).'@
+ 'Blind marking'@
+ 'Blind marking is enabled for this activity.'@
+ 'Blind marking hides the identity of students from markers. Blind marking settings will be locked once a submission or grade has been made in relation to this assignment.'@
+ '{$a} is due'@
+ '{$a} is due to be graded'@
+ 'Change user'@
+ 'Change filters'@
+ 'Grading action'@
+ 'Choose...'@
+ 'Choose operation'@
+ 'Click to expand review panel'@
+ 'Collapse grade panel'@
+ 'Collapse review panel'@
+ 'Comment'@
+ 'Student must submit to this activity to complete it'@
+ 'Could not convert assignment. Exception was: {$a}.'@
+ 'Everyone can see notifications of submissions in recent activity reports.'@
+ 'Are you sure you want to submit your work for grading? You will not be able to make any more changes.'@
+ 'Confirm submission'@
+ 'Are you sure you want to {$a->operation} for {$a->count} students?'@
+ 'Could not convert assignment grade for user {$a}.'@
+ 'Could not convert assignment submission for user {$a}.'@
+ 'Could not create course module.'@
+ 'Could not create new assignment instance.'@
+ 'Could not find old assignment instance to upgrade.'@
+ 'Current grade in gradebook'@
+ 'This is attempt {$a}.'@
+ 'This is attempt {$a->attemptnumber} ( {$a->maxattempts} attempts allowed ).'@
+ 'Cut-off date'@
+ 'Cut-off date: {$a}'@
+ 'If set, the assignment will not accept submissions after this date without an extension.'@
+ 'Cut-off date cannot be earlier than the due date.'@
+ 'Cut-off date cannot be earlier than the allow submissions from date.'@
+ 'Restore default layout'@
+ 'Default assignment settings'@
+ 'These settings define the defaults for all new assignments.'@
+ 'Default group'@
+ 'Delete all submissions'@
+ 'Description'@
+ 'Disabled'@
+ 'Download all submissions'@
+ 'Download all submissions in a zip file.'@
+ 'Download submissions in folders'@
+ 'Assignment submissions may be downloaded in folders. Each submission is then put in a separate folder, with the folder structure kept for any subfolders, and files are not renamed.'@
+ 'Download selected submissions'@
+ 'Due date'@
+ 'Due date: {$a}'@
+ 'This is when the assignment is due. Submissions will still be allowed after this date but any assignments submitted after this date are marked as late. To prevent submissions after a certain date - set the assignment cut off date.'@
+ 'No due date'@
+ 'Duplicate override'@
+ 'Nothing was submitted'@
+ 'You have existing submission data. Please leave this page and try again.'@
+ 'The submission has been modified by somebody else. Please leave this page and try again.'@
+ 'The due date for this assignment has now passed'@
+ 'Due date cannot be earlier than the allow submissions from date.'@
+ 'Edit the grade and feedback for attempt number {$a}.'@
+ 'Edit online'@
+ 'You are editing the feedback for a previous attempt. This is attempt {$a->attemptnumber} out of {$a->totalattempts}.'@
+ 'Edit override'@
+ 'Edit submission'@
+ 'Edit submission for {$a}'@
+ 'You can still make changes to your submission'@
+ 'Editing status'@
+ 'Actions...'@
+ 'Enabled'@
+ 'All the submissions are being downloaded.'@
+ 'A submission has been submitted.'@
+ 'Batch set marker allocation viewed'@
+ 'Batch set workflow state viewed.'@
+ 'An extension has been granted.'@
+ 'Feedback updated'@
+ 'Feedback viewed'@
+ 'Grading form viewed'@
+ 'Grading table viewed'@
+ 'The identities have been revealed.'@
+ 'The allocated marker has been updated.'@
+ 'Assignment override created'@
+ 'Assignment override deleted'@
+ 'Assignment override updated'@
+ 'Reveal identities confirmation page viewed.'@
+ 'The user has accepted the statement of the submission.'@
+ 'Submission confirmation form viewed.'@
+ 'Submission created.'@
+ 'The user duplicated their submission.'@
+ 'Submission form viewed.'@
+ 'The submission has been graded.'@
+ 'The submissions have been locked for a user.'@
+ 'The status of the submission has been updated.'@
+ 'The status of the submission has been viewed.'@
+ 'The submissions have been unlocked for a user.'@
+ 'Submission updated.'@
+ 'Submission viewed.'@
+ 'The state of the workflow has been updated.'@
+ 'Expand review panel'@
+ 'Extension due date'@
+ 'Extension date must be after the due date'@
+ 'Extension date must be after the allow submissions from date'@
+ 'This assignment contains some erroneous grades. You can <a href@
+ 'Are you sure you want to fix erroneous grades? All affected grades will be removed. This may affect course totals.'@
+ 'Grades fixed.'@
+ 'Grade can be changed'@
+ '{$a->username} has updated their assignment submission
+for \'{$a->assignment}\' at {$a->timeupdated}
+
+It is available here:
+
+    {$a->url}'@
+ '{$a->username} has updated their assignment submission
+for <i>\'{$a->assignment}\'  at {$a->timeupdated}</i><br /><br />
+It is <a href@
+ '{$a->username} has updated their submission for assignment {$a->assignment}.'@
+ 'Grade {$a}'@
+ 'Grant extension'@
+ 'Grant extension for {$a} students'@
+ 'Group submission settings'@
+ 'There are no submissions to download'@
+ 'The grades were not saved because this assignment is currently using advanced grading'@
+ 'The grades were not saved because someone has modified one or more records more recently than when you loaded the page.'@
+ 'Feedback'@
+ '{$a->username} has posted some feedback on your
+assignment submission for \'{$a->assignment}\'
+
+You can see it appended to your assignment submission:
+
+    {$a->url}'@
+ '{$a->username} has posted some feedback on your
+assignment submission for \'<i>{$a->assignment}</i>\'<br /><br />
+You can see it appended to your <a href@
+ '{$a->username} has given feedback for assignment {$a->assignment}'@
+ 'Feedback plugins'@
+ 'Feedback plugin that will push comments to the gradebook'@
+ 'Only one assignment feedback plugin can push feedback into the gradebook.'@
+ 'Feedback plugin'@
+ 'Feedback settings'@
+ 'Feedback types'@
+ 'File submissions'@
+ 'Filter'@
+ 'Granted extension'@
+ 'No filter'@
+ 'Not submitted'@
+ 'Requires grading'@
+ 'Submitted'@
+ 'Graded'@
+ 'Graded by'@
+ 'Graded - follow up submission received'@
+ 'Graded on'@
+ 'Grade must be greater than or equal to zero.'@
+ 'Grade must be less than or equal to {$a}.'@
+ 'This grade is locked or overridden in the gradebook.'@
+ 'Grade out of {$a}'@
+ 'Grade'@
+ 'Enter the grade for the student\'s submission here. You may include decimals.'@
+ 'Grade student: (id@
+ 'Grading'@
+ 'The grade changes were saved'@
+ 'Remind me to grade by'@
+ 'The expected date that marking of the submissions should be completed by. This date is used to prioritise dashboard notifications for teachers.'@
+ 'Remind me to grade by date cannot be earlier than the due date.'@
+ 'Remind me to grade by date cannot be earlier than the allow submissions from date.'@
+ 'The changes to the grade and feedback were saved'@
+ 'Grading criteria'@
+ 'Options'@
+ 'Grading status'@
+ 'Grading student'@
+ 'Grading summary'@
+ 'Group overrides'@
+ 'Group overrides deleted'@
+ 'There are no groups in this course'@
+ 'Hide/Show'@
+ 'Participant '@
+ '* Student does not have the correct group or role to attempt the assignment'@
+ 'Assignment cognitive'@
+ 'This indicator is based on the cognitive depth reached by the student in an Assignment activity.'@
+ 'Assignment social'@
+ 'This indicator is based on the social breadth reached by the student in an Assignment activity.'@
+ 'Instruction files'@
+ 'Additional files'@
+ 'Additional files for use in the assignment, such as answer templates, may be added. Download links for the files will then be displayed on the assignment page under the description.'@
+ 'The grade supplied was not valid for the current scale'@
+ 'The grade provided could not be understood: {$a}'@
+ 'Invalid override id'@
+ 'Last modified (submission)'@
+ 'Last modified (grade)'@
+ 'Late submissions'@
+ 'Allowed until {$a}'@
+ 'Loading...'@
+ 'Prevent any more submissions for student: (id@
+ 'Lock submissions'@
+ 'Manage assignment feedback plugins'@
+ 'Manage assignment submission plugins'@
+ 'Marker'@
+ 'Marker filter'@
+ 'No marker'@
+ 'Use marking allocation'@
+ 'If enabled together with marking workflow, markers can be allocated to particular students.'@
+ 'Use marking workflow'@
+ 'If enabled, marks will go through a series of workflow stages before being released to students. This allows for multiple rounds of marking and allows marks to be released to all students at the same time.'@
+ 'Marking workflow state'@
+ 'Possible workflow states may include (depending on your permissions):
+
+* Not marked - the marker has not yet started
+* In marking - the marker has started but not yet finished
+* Marking completed - the marker has finished but might need to go back for checking/corrections
+* In review - the marking is now with the teacher in charge for quality checking
+* Ready for release - the teacher in charge is satisfied with the marking but wait before giving students access to the marking
+* Released - the student can access the grades/feedback'@
+ 'In marking'@
+ 'In review'@
+ 'Not marked'@
+ 'Marking completed'@
+ 'Ready for release'@
+ 'Released'@
+ 'Maximum attempts'@
+ 'The maximum number of submission attempts that can be made by a student. After this number has been reached, the submission can no longer be reopened.'@
+ 'Maximum grade'@
+ 'Maximum Grade'@
+ 'Maximum assignments per page'@
+ 'The maximum number of assignments a grader can show in the assignment grading page. Useful to prevent timeouts on courses with very large enrolments.'@
+ 'Assignment notifications'@
+ 'Assignment'@
+ 'The assignment activity module enables a teacher to communicate tasks, collect work and provide grades and feedback.
+
+Students can submit any digital content (files), such as word-processed documents, spreadsheets, images, or audio and video clips. Alternatively, or in addition, the assignment may require students to type text directly into the text editor. An assignment can also be used to remind students of \'real-world\' assignments they need to complete offline, such as art work, and thus not require any digital content. Students can submit work individually or as a member of a group.
+
+When reviewing assignments, teachers can leave feedback comments and upload files, such as marked-up student submissions, documents with comments or spoken audio feedback. Assignments can be graded using a numerical or custom scale or an advanced grading method such as a rubric. Final grades are recorded in the gradebook.'@
+ 'mod/assignment/view'@
+ 'Assignments'@
+ '{$a} more...'@
+ 'Member of more than one group'@
+ 'The assignment requires submission in groups. You are a member of more than one group. To be able to submit you must be a member of only one group. Please contact your teacher to change your group membership.'@
+ 'Member of more than one group, so unable to make submissions.'@
+ 'My submission: '@
+ 'Assignments submitted'@
+ 'No attempt'@
+ 'No close date'@
+ 'No filters'@
+ 'No files. '@
+ 'No grade. '@
+ 'No late submissions accepted. '@
+ 'Only allowed for participants who have been granted an extension'@
+ 'None'@
+ 'This assignment does not require you to submit anything online'@
+ 'No open date'@
+ 'You must override at least one of the assignment settings.'@
+ 'Next'@
+ 'Nothing has been submitted for this assignment'@
+ 'No submissions accepted after '@
+ 'Not a member of any group'@
+ 'This assignment requires submission in groups. You are not a member of any group, so you cannot create a submission. Please contact your teacher to be added to a group.'@
+ 'Not a member of any group, so unable to make submissions.'@
+ 'Not graded'@
+ 'Not graded yet'@
+ 'Not submitted yet'@
+ 'Notifications'@
+ 'No users selected'@
+ 'No users'@
+ 'Drafts'@
+ 'Participants'@
+ 'Submitted'@
+ 'Needs grading'@
+ 'Groups'@
+ 'No online submissions required'@
+ 'Open'@
+ '{$a->current} out of {$a->total}'@
+ '<font color@
+ 'Override'@
+ 'Are you sure you want to delete the override for group {$a}?'@
+ 'Are you sure you want to delete the override for user {$a}?'@
+ 'Override group'@
+ '{$a->assign} - {$a->group}'@
+ 'Overrides'@
+ 'Override user'@
+ '{$a->assign} - Override'@
+ 'Grade: {$a}'@
+ 'Any assignment module page'@
+ 'Assignment module main and submission page'@
+ '{$a} remaining'@
+ 'Participant'@
+ 'Assignment administration'@
+ 'Assignment'@
+ 'Require group to make submission'@
+ 'If enabled, users who are not members of a group will be unable to make submissions.'@
+ 'Prevent the user from making any more submissions to this assignment.'@
+ 'Prevent submission changes'@
+ 'Previous'@
+ 'attempt {$a}'@
+ 'The identifier used for blind marking'@
+ 'grade'@
+ 'A user preference for whether multiple file submissions should be downloaded into folders'@
+ 'Feedback data for the assignment.'@
+ 'Filter options such as \'Submitted\', \'Not submitted\', \'Requires grading\', and \'Granted extension\''@
+ 'Stores user grades for the assignment'@
+ 'Filter the assign summary by the assigned marker.'@
+ 'Assignment ID'@
+ 'Messages are sent to students through the messaging system.'@
+ 'Stores override information for the assignment'@
+ 'Number of assignments shown per page.'@
+ 'A preference as to whether quick grading is used or not.'@
+ 'Stores user submission information'@
+ 'Submission data for the assignment.'@
+ 'Stores user meta data such as extension dates'@
+ 'The mapping for blind marking'@
+ 'Filter by the different workflow stages.'@
+ 'The numerical grade for this assignment submission. Can be determined by scales/advancedgradingforms etc but will always be converted back to a floating point number.'@
+ 'The user ID of the person grading.'@
+ 'Group ID that the user is a member of.'@
+ 'Greatly simplifies queries wanting to know information about only the latest attempt.'@
+ 'Has this user been mailed yet?'@
+ 'Time created'@
+ 'ID of the user'@
+ 'studentsubmissions'@
+ 'Quick grading'@
+ 'Quick grading'@
+ 'The grade changes were saved'@
+ 'Quick grading allows you to assign grades (and outcomes) directly in the submissions table. Quick grading is not compatible with advanced grading and is not recommended when there are multiple markers.'@
+ 'Delete all group overrides'@
+ 'Delete all user overrides'@
+ 'Reopen until pass option is incompatible with blind marking, because the grades are not released to the gradebook until the student identities are revealed.'@
+ 'Require that students accept the submission statement'@
+ 'Require that students accept the submission statement for all submissions to this assignment.'@
+ 'Require all group members submit'@
+ 'If enabled, all members of the student group must click the submit button for this assignment before the group submission will be considered as submitted. If disabled, the group submission will be considered as submitted as soon as any member of the student group clicks the submit button.'@
+ 'Identifier'@
+ 'Reveal student identities'@
+ 'Are you sure you want to reveal student identities for this assignment? This operation cannot be undone. Once the student identities have been revealed, the marks will be released to the gradebook.'@
+ 'Revert to assignment defaults'@
+ 'Revert submission to draft for student: (id@
+ 'Revert the submission to draft status.'@
+ 'Revert the submission to draft'@
+ 'Reviewed'@
+ 'Save'@
+ 'Save all quick grading changes'@
+ 'Save and continue'@
+ 'Save changes'@
+ 'Grade'@
+ 'Save and show next'@
+ 'Saving changes...'@
+ 'Save and enter another override'@
+ 'Scale'@
+ 'Assignment - activity information'@
+ 'Default setting for "Notify students"'@
+ 'Set the default value for the "Notify students" checkbox on the grading form.'@
+ 'Notify students'@
+ 'If enabled, students receive a message about the updated grade or feedback.'@
+ 'Notify graders about submissions'@
+ 'If enabled, graders (usually teachers) receive a message whenever a student submits an assignment, early, on time and late. Message methods are configurable.'@
+ 'Select...'@
+ 'Select {$a}'@
+ 'Notify graders about late submissions'@
+ 'If enabled, graders (usually teachers) receive a message whenever a student submits an assignment late. Message methods are configurable.'@
+ 'Send submission receipt to students'@
+ 'This switch will enable submission receipts for students. Students will receive a notification every time they successfully submit an assignment'@
+ 'Set allocated marker'@
+ 'Set marking workflow state'@
+ 'Selected users'@
+ 'Set marking workflow state : (id@
+ 'Set marking allocation : (id@
+ 'Assignment settings'@
+ 'Show recent submissions'@
+ 'Status'@
+ 'Marking workflow state must be \'Released\' to notify students.'@
+ 'You have made a copy of your previous
+assignment submission for \'{$a->assignment}\'
+
+You can see the status of your assignment submission:
+
+    {$a->url}'@
+ '<p>You have made a copy of your previous
+assignment submission for \'<i>{$a->assignment}</i>\'.</p>
+<p>You can see the status of your <a href@
+ 'You have copied your previous assignment submission for {$a->assignment}'@
+ 'Require students to click the submit button'@
+ 'If enabled, students will have to click a Submit button to declare their submission as final. This allows students to keep a draft version of the submission on the system. If this setting is changed from "No" to "Yes" after students have already submitted those submissions will be regarded as final.'@
+ 'Student can edit this submission'@
+ 'Student: {$a->fullname}, Status: {$a->status}'@
+ 'The submission was not copied because it has been edited since it was reopened.'@
+ 'Student cannot edit this submission'@
+ 'This assignment is not ready to submit:'@
+ 'submission'@
+ 'Submission plugins'@
+ 'Send submission receipts'@
+ 'Your assignment submission for
+\'{$a->assignment}\' has been submitted.
+
+You can see the status of your assignment submission:
+
+    {$a->url}'@
+ 'Your assignment submission for
+\'<i>{$a->assignment}</i>\' has been submitted.<br /><br />
+You can see the status of your <a href@
+ 'Your assignment submission for {$a->assignment} has been submitted.'@
+ 'You have submitted an
+assignment submission for \'{$a->assignment}\'
+
+You can see the status of your assignment submission:
+
+    {$a->url}'@
+ '<p>You have submitted an assignment submission for \'<i>{$a->assignment}</i>\'.</p>
+<p>You can see the status of your <a href@
+ 'You have submitted your assignment submission for {$a->assignment}'@
+ 'This assignment is not accepting submissions'@
+ 'Submission changes not allowed'@
+ 'Submissions'@
+ 'Submissions not graded: {$a}'@
+ 'Submissions closed'@
+ 'Submission settings'@
+ 'Submission statement'@
+ 'Assignment submission confirmation statement'@
+ 'This assignment is my own work, except where I have acknowledged the use of the works of other people.'@
+ 'Submission statement accepted by user {$a}'@
+ 'Draft (not submitted)'@
+ 'Submission status'@
+ 'Graded'@
+ 'No submission'@
+ 'Reopened'@
+ 'No submission'@
+ 'Submission status'@
+ 'Submitted for grading'@
+ '{$a->status}. Last modified on {$a->timemodified}'@
+ 'Group'@
+ 'Submission types'@
+ 'Submission'@
+ 'Submit'@
+ 'Submit for grading'@
+ 'Once this assignment is submitted you will not be able to make any more changes.'@
+ 'Submit assignment'@
+ 'Assignment was submitted {$a} early'@
+ 'Assignment was submitted {$a} late'@
+ '{$a} late'@
+ 'Submitted'@
+ 'Submission plugin'@
+ 'Submission plugins'@
+ 'Feedback plugin'@
+ 'Feedback plugins'@
+ 'Team: {$a}'@
+ 'Students submit in groups'@
+ 'If enabled students will be divided into groups based on the default set of groups or a custom grouping. A group submission will be shared among group members and all members of the group will see each others changes to the submission.'@
+ 'Grouping for student groups'@
+ 'This is the grouping that the assignment will use to find groups for student groups. If not set - the default set of groups will be used.'@
+ 'Assignment instructions'@
+ 'Last modified'@
+ 'Time remaining'@
+ 'Time remaining: {$a}'@
+ 'Zoom in/out of region'@
+ 'The setting \'Require group to make submission\' is enabled and some users are either not a member of any group, or are a member of more than one group, so are unable to make submissions.'@
+ 'Allow submissions for student: (id@
+ 'Unlock submissions'@
+ 'Unlimited'@
+ 'Unlimited attempts allowed.'@
+ 'Unlimited'@
+ 'Unsaved changes'@
+ 'There are unsaved changes to grades or feedback. Do you want to save the changes and continue?'@
+ 'Update grade'@
+ 'Save and update table'@
+ 'Upgrade not implemented in plugin ({$a->type} {$a->subtype})'@
+ 'Extension granted until: {$a}'@
+ 'The grade changes were NOT saved, as it was not possible to determine which submission they were for.'@
+ 'User overrides'@
+ 'User overrides deleted'@
+ 'No students have access to this assignment.'@
+ 'Users who need to submit: {$a}'@
+ 'User grade'@
+ 'Valid marking workflow states'@
+ 'View a different attempt'@
+ 'View batch set marking workflow state page.'@
+ 'View batch set marking allocation page.'@
+ 'View feedback'@
+ 'View feedback for user: {$a}'@
+ 'Open the full grading page to provide feedback'@
+ 'View gradebook'@
+ 'View grading page for student: (id@
+ 'View all submissions'@
+ 'View own submit assignment page.'@
+ 'View own submission status page.'@
+ 'View submission for user: {$a}'@
+ 'View submission'@
+ 'View full'@
+ 'View summary'@
+ 'View submission grading table.'@
+ 'View reveal student identities confirmation page.'@
+ 'Workflow filter'@
+ '{$a->x} of {$a->y}'@

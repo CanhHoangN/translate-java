@@ -1,0 +1,563 @@
+ 'Bạn có bài tập cần chú ý'@
+ 'Thêm đệ trình'@
+ 'Bạn chưa gửi bài' @
+ 'Cho phép một nỗ lực khác' @
+ 'Thêm một nỗ lực mới' @
+ 'Điều này sẽ tạo một đệ trình trống mới để bạn làm việc.' @
+ 'Thêm một nỗ lực mới dựa trên lần gửi trước' @
+ 'Điều này sẽ sao chép nội dung của lần gửi trước của bạn sang lần gửi mới để bạn làm việc.' @
+ 'Thêm ghi đè nhóm' @
+ 'Thêm ghi đè người dùng' @
+ 'Dấu phân bổ' @
+ 'Điểm đánh dấu được phân bổ cho bài nộp này' @
+ 'Cho phép người dùng tiếp tục gửi bài cho bài tập này.' @
+ 'Cho phép thay đổi gửi' @
+ 'Cho phép gửi từ' @
+ 'Nếu được bật, sinh viên sẽ không thể gửi trước ngày này. Nếu bị vô hiệu hóa, học sinh sẽ có thể bắt đầu gửi ngay lập tức. '@
+ 'Nhiệm vụ này sẽ chấp nhận các bài đăng từ <strong> {$ a} </ strong>' @
+ 'Chi tiết bài tập và biểu mẫu gửi sẽ có sẵn từ <strong> {$ a} </ strong>' @
+ 'Luôn hiển thị mô tả' @
+ 'Nếu bị vô hiệu hóa, Mô tả bài tập ở trên sẽ chỉ hiển thị cho học sinh vào ngày "Cho phép gửi từ". @ @
+ 'Áp dụng điểm số và phản hồi cho toàn bộ nhóm' @
+ 'Thêm một nhiệm vụ mới' @
+ 'Xuất trình riêng' @
+ 'Chỉnh sửa bài đăng của học sinh khác' @
+ 'Phân công lớp' @
+ 'Gia hạn tài trợ' @
+ 'Quản lý điểm đánh dấu được phân bổ cho bài nộp' @
+ 'Đánh giá và phát hành điểm' @
+ 'Quản lý ghi đè chuyển nhượng' @
+ 'Nhận thông báo gửi học sinh' @
+ 'Điểm phát hành' @
+ 'Tiết lộ danh tính sinh viên' @
+ 'Đánh giá điểm' @
+ 'Xem danh tính sinh viên khi bật đánh dấu mù' @
+ 'Xem điểm' @
+ 'Nộp bài luận'@
+ 'Xem bài tập' @
+ 'Plugin phản hồi' @
+ 'Plugin phản hồi' @
+ 'Chuyển nhượng là do' @
+ '{$ a-> học sinh} đã đăng một số phản hồi về
+gửi bài tập cho '{$ a-> bài tập}'
+
+Bạn có thể thấy nó được thêm vào bài tập chuyển nhượng của bạn:
+
+    {$ a-> url} '@
+ '<p> {$ a-> học sinh} đã đăng một số phản hồi về
+gửi bài tập cho '<i> {$ a-> bài tập} </ i>'. </ p>
+<p> Bạn có thể thấy nó được gắn vào <a href @ của bạn
+ '{$ a-> học sinh} đã đăng một số phản hồi về
+gửi bài tập cho '{$ a-> bài tập}' Bạn có thể thấy nó được thêm vào bài nộp của bạn '@
+ 'Tên bài luận'@
+ 'Phân công bổ trợ' @
+ 'Bài tập trên mỗi trang' @
+ 'Plugin gửi' @
+ 'Plugin gửi' @
+ 'Nỗ lực {$ a-> nỗ lực}: {$ a-> đệ trình}' @
+ 'Những nỗ lực trước đây'@
+ 'Số lần thử' @
+ 'Cài đặt thử' @
+ 'Nỗ lực mở lại' @
+ 'Xác định cách mở lại các nỗ lực của sinh viên. Các tùy chọn khả dụng là: <ul> <li> Không bao giờ - Việc gửi sinh viên có thể được mở lại. </ Li> <li> Thủ công - Việc gửi sinh viên có thể được giáo viên mở lại. </ Li> <li> Tự động cho đến khi vượt qua - Việc gửi sinh viên được tự động mở lại cho đến khi sinh viên đạt được điểm để vượt qua giá trị được đặt trong Sổ Điểm (phần thiết lập Sổ Điểm) cho bài tập này. </ Li> </ ul> '@
+ 'Thủ công' @
+ 'Không bao giờ'@
+ 'Tự động cho đến khi vượt qua' @
+ 'Khả dụng'@
+ 'Quay lại bài tập' @
+ 'Với lựa chọn ...' @
+ 'Khóa tất cả các bài nộp được chọn?' @
+ 'Cấp một phần mở rộng cho tất cả các bài nộp được chọn?' @
+ 'Mở khóa tất cả các bài nộp được chọn?' @
+ 'Hoàn nguyên các bài nộp được chọn để soạn thảo?' @
+ 'Cho phép một nỗ lực khác cho các bài nộp được chọn?' @
+ 'Đặt trạng thái dòng công việc đánh dấu cho tất cả các lần gửi đã chọn?' @
+ 'Đặt phân bổ đánh dấu cho tất cả các bài nộp được chọn?' @
+ 'Tải xuống các bài nộp được chọn?' @
+ 'khóa đệ trình' @
+ 'mở khóa đệ trình' @
+ 'hoàn nguyên đệ trình dự thảo' @
+ 'Đặt điểm đánh dấu được phân bổ cho {$ a} người dùng đã chọn.' @
+ 'Đặt trạng thái dòng công việc đánh dấu cho {$ a} người dùng được chọn.' @
+ 'Đánh dấu mù' @
+ Marking Đánh dấu mù được kích hoạt cho hoạt động này. '@
+ 'Điểm mù che giấu danh tính của học sinh khỏi điểm đánh dấu. Cài đặt đánh dấu mù sẽ bị khóa sau khi bài nộp hoặc điểm được thực hiện liên quan đến nhiệm vụ này. '@
+ '{$ a} là do' @
+ '{$ a} là do được xếp loại' @
+ 'Thay đổi người sử dụng'@
+ 'Thay đổi bộ lọc' @
+ 'Hành động chấm điểm' @
+ 'Chọn...'@
+ 'Chọn hoạt động' @
+ 'Bấm để mở rộng bảng đánh giá' @
+ 'Thu gọn bảng điều khiển lớp' @
+ 'Thu gọn bảng đánh giá' @
+ 'Bình luận'@
+ 'Học sinh phải gửi đến hoạt động này để hoàn thành nó' @
+ 'Không thể chuyển đổi bài tập. Ngoại lệ là: {$ a}. '@
+ 'Mọi người đều có thể thấy thông báo gửi trong các báo cáo hoạt động gần đây.' @
+ 'Bạn có chắc chắn muốn gửi tác phẩm của mình để chấm điểm? Bạn sẽ không thể thực hiện thêm bất kỳ thay đổi nào. '@
+ 'Xác nhận gửi' @
+ 'Bạn có chắc chắn muốn {$ a-> hoạt động} cho {$ a-> tính} sinh viên?' @
+ 'Không thể chuyển đổi lớp gán cho người dùng {$ a}.' @
+ 'Không thể chuyển đổi việc gửi bài tập cho người dùng {$ a}.' @
+ 'Không thể tạo mô-đun khóa học.' @
+ 'Không thể tạo phiên bản gán mới.' @
+ 'Không thể tìm thấy phiên bản gán cũ để nâng cấp.' @
+ 'Lớp hiện tại trong sổ điểm' @
+ 'Đây là nỗ lực {$ a}.' @
+ 'Đây là lần thử {$ a-> nỗ lực} ({$ a-> maxattvor} lần thử được phép).' @
+ 'Ngày giới hạn' @
+ 'Ngày giới hạn: {$ a}' @
+ 'Nếu được đặt, bài tập sẽ không chấp nhận bài nộp sau ngày này mà không có phần mở rộng.' @
+ 'Ngày giới hạn không thể sớm hơn ngày đáo hạn.' @
+ 'Ngày giới hạn không thể sớm hơn ngày gửi cho phép kể từ ngày.' @
+ 'Khôi phục bố cục mặc định' @
+ 'Cài đặt gán mặc định' @
+ 'Các cài đặt này xác định mặc định cho tất cả các nhiệm vụ mới.' @
+ 'Nhóm mặc định' @
+ 'Xóa tất cả các bài nộp' @
+ 'Sự miêu tả'@
+ 'Tàn tật'@
+ 'Tải xuống tất cả các bài nộp' @
+ 'Tải xuống tất cả các bài nộp trong tệp zip.' @
+ 'Tải xuống nội dung gửi trong thư mục' @
+ 'Bài tập chuyển nhượng có thể được tải xuống trong các thư mục. Mỗi lần gửi sau đó được đặt vào một thư mục riêng, với cấu trúc thư mục được giữ cho mọi thư mục con và các tệp không được đổi tên. '@
+ 'Tải xuống các bài nộp được chọn' @
+ 'Ngày đáo hạn'@
+ 'Ngày đáo hạn: {$ a}' @
+ 'Đây là khi chuyển nhượng đến hạn. Đệ trình sẽ vẫn được cho phép sau ngày này nhưng bất kỳ bài tập nào được gửi sau ngày này được đánh dấu là muộn. Để ngăn việc gửi sau một ngày nhất định - hãy đặt ngày cắt giảm chuyển nhượng. '@
+ 'Không có ngày đáo hạn' @
+ 'Ghi đè trùng lặp' @
+ 'Không có gì được gửi' @
+ 'Bạn có dữ liệu trình hiện có. Vui lòng rời khỏi trang này và thử lại. '@
+ 'Trình đã được sửa đổi bởi người khác. Vui lòng rời khỏi trang này và thử lại. '@
+ 'Ngày đáo hạn của nhiệm vụ này đã trôi qua' @
+ 'Ngày đáo hạn không thể sớm hơn ngày gửi cho phép kể từ ngày.' @
+ 'Chỉnh sửa điểm và phản hồi cho số lần thử {$ a}.' @
+ 'Chỉnh sửa trực tuyến' @
+ 'Bạn đang chỉnh sửa phản hồi cho lần thử trước. Đây là nỗ lực {$ a-> nỗ lực} trong số {$ a-> Totalattvor}. '@
+ 'Chỉnh sửa ghi đè' @
+ 'Chỉnh sửa gửi' @
+ 'Chỉnh sửa gửi cho {$ a}' @
+ 'Bạn vẫn có thể thay đổi nội dung gửi của mình' @
+ 'Chỉnh sửa trạng thái' @
+ 'Hành động ...' @
+ 'Đã bật' @
+ 'Tất cả các bài nộp đang được tải xuống.' @
+ 'Một bài nộp đã được gửi.' @
+ 'Batch set phân bổ đánh dấu đã xem' @
+ 'Hàng loạt thiết lập trạng thái dòng công việc được xem.' @
+ 'Một phần mở rộng đã được cấp.' @
+ 'Phản hồi được cập nhật' @
+ 'Phản hồi đã xem' @
+ 'Hình thức chấm điểm được xem' @
+ 'Bảng chấm điểm đã xem' @
+ 'Danh tính đã được tiết lộ.' @
+ Marker Điểm đánh dấu được phân bổ đã được cập nhật. '@
+ 'Ghi đè chuyển nhượng được tạo' @
+ 'Chuyển nhượng ghi đè đã xóa' @
+ 'Ghi đè chuyển nhượng được cập nhật' @
+ 'Hiển thị trang xác nhận danh tính đã xem.' @
+ User Người dùng đã chấp nhận tuyên bố gửi. '@
+ 'Mẫu xác nhận đăng ký được xem.' @
+ 'Đăng ký được tạo.' @
+ User Người dùng sao chép nội dung gửi của họ. '@
+ Form Mẫu đăng ký được xem. '@
+ 'Bài nộp đã được xếp loại.' @
+ 'Các bài nộp đã bị khóa đối với người dùng.' @
+ 'Trạng thái của bài nộp đã được cập nhật.' @
+ 'Trạng thái của bài nộp đã được xem.' @
+ 'Các bài nộp đã được mở khóa cho người dùng.' @
+ 'Đăng ký được cập nhật.' @
+ 'Đăng ký được xem.' @
+ State Trạng thái của quy trình làm việc đã được cập nhật. '@
+ 'Mở rộng bảng đánh giá' @
+ 'Ngày đáo hạn' @
+ 'Ngày gia hạn phải sau ngày đáo hạn' @
+ 'Ngày gia hạn phải sau ngày gửi cho phép kể từ ngày' @
+ 'Bài tập này chứa một số điểm sai. Bạn có thể <a href @
+ 'Bạn có chắc chắn muốn sửa chữa các điểm sai? Tất cả các lớp bị ảnh hưởng sẽ được loại bỏ. Điều này có thể ảnh hưởng đến tổng số khóa học. '@
+ 'Điểm cố định.' @
+ 'Lớp có thể được thay đổi' @
+ '{$ a-> tên người dùng} đã cập nhật bài nộp bài tập của họ
+cho '{$ a-> gán}' tại {$ a-> hết thời gian}
+
+Nó có sẵn ở đây:
+
+    {$ a-> url} '@
+ '{$ a-> tên người dùng} đã cập nhật bài nộp bài tập của họ
+cho <i> '{$ a-> gán}' tại {$ a-> hết thời gian} </ i> <br /> <br />
+Đó là <a href @
+ '{$ a-> tên người dùng} đã cập nhật nội dung gửi của họ cho bài tập {$ a-> bài tập}.' @
+ 'Lớp {$ a}' @
+ 'Gia hạn tài trợ' @
+ 'Gia hạn cấp cho {$ a} sinh viên' @
+ 'Cài đặt gửi nhóm' @
+ 'Không có bài đăng nào để tải xuống' @
+ 'Điểm không được lưu vì bài tập này hiện đang sử dụng phân loại nâng cao' @
+ 'Điểm không được lưu vì ai đó đã sửa đổi một hoặc nhiều bản ghi gần đây hơn so với khi bạn tải trang.' @
+ 'Phản hồi'@
+ '{$ a-> tên người dùng} đã đăng một số phản hồi về
+gửi bài tập cho '{$ a-> bài tập}'
+
+Bạn có thể thấy nó được thêm vào bài tập chuyển nhượng của bạn:
+
+    {$ a-> url} '@
+ '{$ a-> tên người dùng} đã đăng một số phản hồi về
+gửi bài tập cho '<i> {$ a-> bài tập} </ i>' <br /> <br />
+Bạn có thể thấy nó được gắn vào <a href @ của bạn
+ '{$ a-> tên người dùng} đã đưa ra phản hồi cho bài tập {$ a-> bài tập}' @
+ 'Các plugin phản hồi' @
+ 'Plugin phản hồi sẽ đẩy nhận xét vào sổ điểm' @
+ 'Chỉ một plugin phản hồi bài tập có thể đẩy phản hồi vào sổ điểm.' @
+ 'Plugin phản hồi' @
+ 'Cài đặt phản hồi' @
+ 'Các loại phản hồi' @
+ 'Đệ trình tập tin'@
+ 'Bộ lọc' @
+ 'Gia hạn được cấp' @
+ 'Không có bộ lọc' @
+ 'Không được gửi' @
+ 'Yêu cầu chấm điểm' @
+ 'Đã gửi' @
+ 'Đã được phân loại' @
+ 'Đã được phân loại bởi' @
+ 'Đã được phân loại - đã nhận được theo dõi' @
+ 'Đã được phân loại trên' @
+ 'Lớp phải lớn hơn hoặc bằng không.' @
+ 'Điểm phải nhỏ hơn hoặc bằng {$ a}.' @
+ 'Lớp này bị khóa hoặc ghi đè trong sổ điểm.' @
+ 'Xếp loại {$ a}' @
+ 'Cấp'@
+ 'Nhập điểm cho bài nộp của học sinh ở đây. Bạn có thể bao gồm số thập phân. '@
+ 'Học sinh lớp: (id @
+ 'Phân loại' @
+ 'Các thay đổi điểm đã được lưu' @
+ 'Nhắc tôi đến lớp bằng' @
+ 'Ngày dự kiến ​​đánh dấu bài nộp sẽ được hoàn thành trước. Ngày này được sử dụng để ưu tiên thông báo bảng điều khiển cho giáo viên. '@
+ 'Nhắc tôi chấm điểm theo ngày không thể sớm hơn ngày đáo hạn.' @
+ 'Nhắc tôi chấm điểm theo ngày không thể sớm hơn ngày cho phép gửi từ ngày.' @
+ 'Các thay đổi về điểm số và phản hồi đã được lưu' @
+ 'Tiêu chí chấm điểm'@
+ 'Tùy chọn' @
+ 'Trạng thái chấm điểm' @
+ 'Học sinh chấm điểm' @
+ 'Tóm tắt chấm điểm' @
+ 'Nhóm ghi đè' @
+ 'Nhóm ghi đè đã bị xóa' @
+ 'Không có nhóm nào trong khóa học này' @
+ 'Ẩn / Hiển thị' @
+ 'Người tham gia' @
+ '* Học sinh không có nhóm hoặc vai trò chính xác để thử bài tập' @
+ 'Chuyển nhượng nhận thức' @
+ Indicator Chỉ số này dựa trên độ sâu nhận thức mà học sinh đạt được trong một hoạt động Bài tập. '@
+ 'Phân công xã hội' @
+ Indicator Chỉ số này dựa trên chiều rộng xã hội mà học sinh đạt được trong một hoạt động Bài tập. '@
+ 'Tập tin hướng dẫn' @
+ 'Các tệp bổ sung'@
+ 'Các tệp bổ sung để sử dụng trong bài tập, chẳng hạn như mẫu câu trả lời, có thể được thêm vào. Liên kết tải xuống cho các tệp sau đó sẽ được hiển thị trên trang bài tập dưới phần mô tả. '@
+ 'Loại được cung cấp không hợp lệ cho thang đo hiện tại' @
+ 'Lớp được cung cấp không thể hiểu được: {$ a}' @
+ 'Id ghi đè không hợp lệ' @
+ 'Sửa đổi lần cuối (gửi)' @
+ 'Sửa đổi lần cuối (lớp)' @
+ 'Gửi muộn' @
+ 'Được phép cho đến khi {$ a}' @
+ 'Đang tải...'@
+ 'Ngăn chặn mọi bài nộp thêm cho sinh viên: (id @
+ 'Khóa gửi' @
+ 'Quản lý plugin phản hồi bài tập' @
+ 'Quản lý plugin gửi bài tập' @
+ 'Đánh dấu'@
+ 'Bộ lọc đánh dấu' @
+ 'Không có điểm đánh dấu' @
+ 'Sử dụng phân bổ đánh dấu' @
+ 'Nếu được bật cùng với quy trình đánh dấu, các điểm đánh dấu có thể được phân bổ cho các sinh viên cụ thể.' @
+ 'Sử dụng quy trình đánh dấu' @
+ 'Nếu được bật, nhãn hiệu sẽ trải qua một loạt các giai đoạn quy trình làm việc trước khi được phát hành cho sinh viên. Điều này cho phép nhiều vòng đánh dấu và cho phép phát hành điểm cho tất cả học sinh cùng một lúc. '@
+ 'Đánh dấu trạng thái dòng công việc' @
+ 'Các trạng thái dòng công việc có thể có thể bao gồm (tùy thuộc vào quyền của bạn):
+
+* Chưa được đánh dấu - điểm đánh dấu chưa bắt đầu
+* Trong đánh dấu - điểm đánh dấu đã bắt đầu nhưng chưa kết thúc
+* Đánh dấu đã hoàn thành - điểm đánh dấu đã kết thúc nhưng có thể cần quay lại để kiểm tra / chỉnh sửa
+* Đang xem xét - việc chấm điểm hiện đang được giáo viên phụ trách kiểm tra chất lượng
+* Sẵn sàng để phát hành - giáo viên phụ trách hài lòng với việc chấm bài nhưng hãy đợi trước khi cho học sinh truy cập vào điểm
+* Đã phát hành - học sinh có thể truy cập các lớp / phản hồi '@
+ 'Đang đánh dấu' @
+ 'Đang xem xét' @
+ 'Không được đánh dấu' @
+ 'Đánh dấu đã hoàn thành' @
+ 'Sẵn sàng để phát hành' @
+ 'Phát hành'@
+ 'Số lần thử tối đa' @
+ 'Số lần gửi bài tối đa có thể được thực hiện bởi một sinh viên. Sau khi đạt được số này, bài nộp không thể mở lại được nữa. '@
+ 'Điểm tối đa' @
+ 'Điểm tối đa' @
+ 'Bài tập tối đa trên mỗi trang' @
+ 'Số lượng bài tập tối đa mà học sinh có thể hiển thị trong trang phân loại bài tập. Hữu ích để ngăn chặn thời gian chờ trên các khóa học với số lượng đăng ký rất lớn. '@
+ 'Thông báo chuyển nhượng' @
+ 'Bài tập' @
+ 'Mô-đun hoạt động phân công cho phép giáo viên giao tiếp các nhiệm vụ, thu thập công việc và cung cấp điểm số và phản hồi.
+
+Học sinh có thể gửi bất kỳ nội dung kỹ thuật số (tệp), chẳng hạn như các tài liệu được xử lý văn bản, bảng tính, hình ảnh hoặc âm thanh và video clip. Ngoài ra, hoặc ngoài ra, bài tập có thể yêu cầu sinh viên nhập văn bản trực tiếp vào trình soạn thảo văn bản. Một bài tập cũng có thể được sử dụng để nhắc nhở sinh viên về các bài tập 'thế giới thực' mà họ cần để hoàn thành ngoại tuyến, chẳng hạn như tác phẩm nghệ thuật và do đó không yêu cầu bất kỳ nội dung kỹ thuật số nào. Học sinh có thể gửi công việc cá nhân hoặc là thành viên của một nhóm.
+
+Khi xem lại bài tập, giáo viên có thể để lại nhận xét phản hồi và tải lên các tệp, chẳng hạn như bài nộp của sinh viên được đánh dấu, tài liệu có nhận xét hoặc phản hồi âm thanh được nói. Bài tập có thể được phân loại bằng thang số hoặc tùy chỉnh hoặc phương pháp phân loại nâng cao như phiếu tự đánh giá. Điểm cuối khóa được ghi vào sổ điểm. '@
+ 'mod / gán / xem' @
+ 'Bài tập' @
+ '{$ a} thêm ...' @
+ 'Thành viên của nhiều nhóm' @
+ 'Bài tập yêu cầu nộp theo nhóm. Bạn là thành viên của nhiều nhóm. Để có thể gửi bạn phải là thành viên của một nhóm duy nhất. Vui lòng liên hệ với giáo viên của bạn để thay đổi thành viên nhóm của bạn. '@
+ 'Thành viên của nhiều nhóm, vì vậy không thể gửi bài.' @
+ 'Trình của tôi:' @
+ 'Bài tập được gửi' @
+ 'Không cố gắng' @
+ 'Không có ngày kết thúc' @
+ 'Không có bộ lọc'@
+ 'Không có tập tin. '@
+ 'Không có lớp. '@
+ 'Không đệ trình muộn được chấp nhận. '@
+ 'Chỉ được phép cho những người tham gia đã được cấp tiện ích mở rộng' @
+ 'Không ai'@
+ 'Nhiệm vụ này không yêu cầu bạn gửi bất cứ điều gì trực tuyến' @
+ 'Không có ngày mở' @
+ 'Bạn phải ghi đè ít nhất một trong các cài đặt gán.' @
+ 'Kế tiếp'@
+ 'Không có gì đã được gửi cho nhiệm vụ này' @
+ 'Không có bài nộp được chấp nhận sau' @
+ 'Không phải là thành viên của bất kỳ nhóm nào' @
+ 'Nhiệm vụ này yêu cầu nộp theo nhóm. Bạn không phải là thành viên của bất kỳ nhóm nào, vì vậy bạn không thể tạo một bài nộp. Vui lòng liên hệ với giáo viên của bạn để được thêm vào một nhóm. '@
+ 'Không phải là thành viên của bất kỳ nhóm nào, vì vậy không thể gửi bài.' @
+ 'Chưa được phân loại' @
+ 'Chưa được phân loại' @
+ 'Không nộp chưa'@
+ 'Thông báo' @
+ 'Không có người dùng nào được chọn' @
+ 'Không có người dùng' @
+ 'Bản nháp' @
+ 'Những người tham gia'@
+ 'Đã gửi' @
+ 'Cần chấm điểm' @
+ 'Các nhóm'@
+ 'Không yêu cầu nộp trực tuyến' @
+ 'Mở'@
+ '{$ a-> hiện tại} trong số {$ a-> tổng}' @
+ '<phông chữ @
+ 'Ghi đè'@
+ 'Bạn có chắc chắn muốn xóa ghi đè cho nhóm {$ a}?' @
+ 'Bạn có chắc chắn muốn xóa ghi đè cho người dùng {$ a}?' @
+ 'Nhóm ghi đè' @
+ '{$ a-> gán} - {$ a-> nhóm}' @
+ 'Ghi đè' @
+ 'Ghi đè người dùng' @
+ '{$ a-> gán} - Ghi đè' @
+ 'Lớp: {$ a}' @
+ 'Bất kỳ trang mô-đun chuyển nhượng' @
+ 'Phân công mô-đun chính và trang trình' @
+ '{$ a} còn lại' @
+ 'Người tham gia' @
+ 'Quản trị chuyển nhượng' @
+ 'Bài tập' @
+ 'Yêu cầu nhóm gửi bài' @
+ 'Nếu được bật, người dùng không phải là thành viên của nhóm sẽ không thể gửi bài.' @
+ 'Ngăn người dùng thực hiện thêm bất kỳ bài nộp nào cho bài tập này.' @
+ 'Ngăn chặn thay đổi gửi' @
+ 'Trước'@
+ 'cố gắng {$ a}' @
+ 'Số nhận dạng được sử dụng để đánh dấu mù' @
+ 'cấp'@
+ 'Tùy chọn người dùng cho việc có nên tải xuống nhiều tệp vào thư mục' @
+ 'Dữ liệu phản hồi cho bài tập.' @
+ 'Tùy chọn bộ lọc, chẳng hạn như' Đã gửi ',' Chưa gửi ',' Yêu cầu chấm điểm 'và' Gia hạn được cấp '' @
+ 'Lưu trữ điểm người dùng cho bài tập' @
+ 'Lọc tóm tắt gán bằng điểm đánh dấu được chỉ định.' @
+ 'ID bài tập' @
+ 'Tin nhắn được gửi cho sinh viên thông qua hệ thống nhắn tin.' @
+ 'Lưu trữ thông tin ghi đè cho bài tập' @
+ 'Số lượng bài tập được hiển thị trên mỗi trang.' @
+ 'Sở thích về việc phân loại nhanh có được sử dụng hay không.' @
+ 'Lưu trữ thông tin người dùng gửi' @
+ 'Dữ liệu gửi cho bài tập.' @
+ 'Lưu trữ dữ liệu meta của người dùng, chẳng hạn như ngày gia hạn' @
+ 'Ánh xạ đánh dấu mù' @
+ 'Lọc theo các giai đoạn quy trình công việc khác nhau.' @
+ 'Các lớp số cho đệ trình bài tập này. Có thể được xác định theo tỷ lệ / nâng cấp định dạng, v.v. nhưng sẽ luôn được chuyển đổi trở lại thành số dấu phẩy động. '@
+ 'ID người dùng của người chấm điểm.' @
+ 'ID nhóm mà người dùng là thành viên của.' @
+ 'Rất đơn giản hóa các truy vấn muốn biết thông tin về chỉ lần thử mới nhất.' @
+ User Người dùng này đã được gửi thư chưa? '@
+ 'Thời gian tạo ra' @
+ 'ID của người dùng' @
+ 'sinh viên' @
+ 'Phân loại nhanh' @
+ 'Phân loại nhanh' @
+ 'Các thay đổi điểm đã được lưu' @
+ 'Phân loại nhanh cho phép bạn chỉ định điểm (và kết quả) trực tiếp trong bảng gửi. Phân loại nhanh không tương thích với phân loại nâng cao và không được khuyến nghị khi có nhiều điểm đánh dấu. '@
+ 'Xóa tất cả ghi đè nhóm' @
+ 'Xóa tất cả người dùng ghi đè' @
+ 'Mở lại cho đến khi tùy chọn vượt qua không tương thích với đánh dấu mù, vì các điểm không được phát hành vào sổ điểm cho đến khi danh tính học sinh được tiết lộ.' @
+ 'Yêu cầu sinh viên chấp nhận tuyên bố gửi' @
+ 'Yêu cầu học sinh chấp nhận tuyên bố đệ trình cho tất cả các bài nộp cho bài tập này.' @
+ 'Yêu cầu tất cả thành viên nhóm gửi' @
+ 'Nếu được bật, tất cả các thành viên của nhóm sinh viên phải nhấp vào nút gửi cho bài tập này trước khi bài nộp của nhóm sẽ được coi là đã gửi. Nếu bị vô hiệu hóa, việc gửi nhóm sẽ được coi là được gửi ngay khi bất kỳ thành viên nào trong nhóm sinh viên nhấp vào nút gửi. '@
+ 'Định danh' @
+ 'Tiết lộ danh tính sinh viên' @
+ 'Bạn có chắc chắn muốn tiết lộ danh tính sinh viên cho bài tập này? Hoạt động này không thể được hoàn tác. Khi danh tính của học sinh đã được tiết lộ, các điểm sẽ được phát hành vào sổ điểm. '@
+ 'Hoàn nguyên về mặc định gán' @
+ 'Hoàn nguyên đệ trình dự thảo cho sinh viên: (id @
+ 'Hoàn nguyên việc gửi đến dự thảo trạng thái.' @
+ 'Hoàn nguyên việc gửi dự thảo' @
+ 'Đã đánh giá' @
+ 'Lưu lại'@
+ 'Lưu tất cả các thay đổi chấm điểm nhanh' @
+ 'Lưu lại và tiếp tục'@
+ 'Lưu thay đổi'@
+ 'Cấp'@
+ 'Lưu và hiển thị tiếp theo' @
+ 'Lưu thay đổi...'@
+ 'Lưu và nhập ghi đè khác' @
+ 'Tỉ lệ'@
+ 'Bài tập - thông tin hoạt động' @
+ 'Cài đặt mặc định cho "Thông báo cho sinh viên"' @
+ 'Đặt giá trị mặc định cho hộp kiểm "Thông báo cho học sinh" trên biểu mẫu chấm điểm.' @
+ 'Thông báo cho sinh viên' @
+ 'Nếu được bật, học sinh sẽ nhận được thông báo về lớp hoặc phản hồi được cập nhật.' @
+ 'Thông báo cho học sinh về bài nộp' @
+ 'Nếu được bật, học sinh lớp (thường là giáo viên) sẽ nhận được tin nhắn mỗi khi học sinh nộp bài tập, sớm, đúng giờ và trễ. Phương thức tin nhắn có thể định cấu hình. '@
+ 'Lựa chọn...'@
+ 'Chọn {$ a}' @
+ 'Thông báo cho học sinh về việc nộp muộn' @
+ 'Nếu được bật, học sinh lớp (thường là giáo viên) sẽ nhận được tin nhắn mỗi khi học sinh nộp bài tập muộn. Phương thức tin nhắn có thể định cấu hình. '@
+ 'Gửi biên lai nộp cho sinh viên' @
+ Switch Công tắc này sẽ cho phép biên lai nộp cho sinh viên. Học sinh sẽ nhận được thông báo mỗi khi họ gửi bài tập thành công '@
+ 'Đặt điểm đánh dấu được phân bổ' @
+ 'Đặt trạng thái dòng công việc đánh dấu' @
+ 'Người dùng được chọn' @
+ 'Đặt trạng thái dòng công việc đánh dấu: (id @
+ 'Đặt phân bổ đánh dấu: (id @
+ 'Cài đặt bài tập' @
+ 'Hiển thị bài nộp gần đây' @
+ 'Trạng thái'@
+ 'Trạng thái dòng công việc đánh dấu phải là' Đã phát hành 'để thông báo cho sinh viên.' @
+ 'Bạn đã tạo một bản sao trước đó của bạn
+gửi bài tập cho '{$ a-> bài tập}'
+
+Bạn có thể thấy trạng thái gửi bài tập của mình:
+
+    {$ a-> url} '@
+ '<p> Bạn đã tạo một bản sao trước đó của bạn
+gửi bài tập cho '<i> {$ a-> bài tập} </ i>'. </ p>
+<p> Bạn có thể thấy trạng thái của <a href @
+ 'Bạn đã sao chép nội dung gửi bài tập trước của mình cho {$ a-> bài tập}' @
+ 'Yêu cầu sinh viên nhấp vào nút gửi' @
+ 'Nếu được bật, sinh viên sẽ phải nhấp vào nút Gửi để khai báo bài nộp của mình là cuối cùng. Điều này cho phép sinh viên giữ một phiên bản dự thảo của bài nộp trên hệ thống. Nếu cài đặt này được thay đổi từ "Không" thành "Có" sau khi sinh viên đã gửi, những bài nộp đó sẽ được coi là cuối cùng. '@
+ 'Sinh viên có thể chỉnh sửa bài này' @
+ 'Sinh viên: {$ a-> tên đầy đủ}, Trạng thái: {$ a-> trạng thái}' @
+ 'Nội dung gửi không được sao chép vì nó đã được chỉnh sửa kể từ khi được mở lại.' @
+ 'Sinh viên không thể chỉnh sửa bài này' @
+ 'Nhiệm vụ này chưa sẵn sàng để gửi:' @
+ 'nộp hồ sơ'@
+ 'Plugin đăng ký' @
+ 'Gửi biên lai nộp' @
+ 'Bài tập chuyển nhượng của bạn cho
+'{$ a-> gán}' đã được gửi.
+
+Bạn có thể thấy trạng thái gửi bài tập của mình:
+
+    {$ a-> url} '@
+ 'Bài tập chuyển nhượng của bạn cho
+'<i> {$ a-> bài tập} </ i>' đã được gửi. <br /> <br />
+Bạn có thể thấy trạng thái của <a href @
+ 'Bài nộp bài tập của bạn cho {$ a-> bài tập} đã được gửi.' @
+ 'Bạn đã gửi một
+gửi bài tập cho '{$ a-> bài tập}'
+
+Bạn có thể thấy trạng thái gửi bài tập của mình:
+
+    {$ a-> url} '@
+ '<p> Bạn đã gửi bài nộp bài tập cho' <i> {$ a-> bài tập} </ i> '. </ p>
+<p> Bạn có thể thấy trạng thái của <a href @
+ 'Bạn đã gửi bài nộp bài tập của mình cho {$ a-> bài tập}' @
+ 'Nhiệm vụ này không chấp nhận đệ trình' @
+ 'Thay đổi đăng ký không được phép' @
+ 'Đệ trình' @
+ 'Bài dự thi chưa được phân loại: {$ a}' @
+ 'Đệ trình đã đóng' @
+ 'Cài đặt gửi' @
+ 'Tuyên bố gửi' @
+ 'Tuyên bố xác nhận bài tập' @
+ 'Nhiệm vụ này là công việc của riêng tôi, trừ khi tôi đã thừa nhận việc sử dụng tác phẩm của người khác.' @
+ 'Tuyên bố gửi được chấp nhận bởi người dùng {$ a}' @
+ 'Bản nháp (chưa nộp)'@
+ Status Trạng thái gửi '@
+ 'Đã được phân loại' @
+ 'Không nộp'@
+ 'Đã mở lại' @
+ 'Không nộp'@
+ Status Trạng thái gửi '@
+ 'Nộp để chấm điểm'@
+ '{$ a-> trạng thái}. Sửa đổi lần cuối vào {$ a-> timemodified} '@
+ 'Nhóm'@
+ 'Các loại bài đăng' @
+ 'Nộp hồ sơ'@
+ 'Gửi đi'@
+ 'Nộp để chấm điểm'@
+ 'Sau khi bài tập này được gửi, bạn sẽ không thể thực hiện thêm bất kỳ thay đổi nào.' @
+ 'Nộp bài luận'@
+ 'Bài tập đã được gửi {$ a} sớm' @
+ 'Bài tập đã được gửi {$ a} muộn' @
+ '{$ a} muộn' @
+ 'Đã gửi' @
+ 'Plugin gửi' @
+ 'Plugin đăng ký' @
+ 'Plugin phản hồi' @
+ 'Các plugin phản hồi' @
+ 'Đội: {$ a}' @
+ 'Học sinh nộp theo nhóm' @
+ 'Nếu được bật, học sinh sẽ được chia thành các nhóm dựa trên nhóm nhóm mặc định hoặc nhóm tùy chỉnh. Việc gửi nhóm sẽ được chia sẻ giữa các thành viên trong nhóm và tất cả các thành viên trong nhóm sẽ thấy những thay đổi khác đối với việc gửi. '@
+ 'Nhóm cho các nhóm sinh viên' @
+ 'Đây là nhóm mà bài tập sẽ sử dụng để tìm các nhóm cho các nhóm sinh viên. Nếu không được đặt - nhóm các nhóm mặc định sẽ được sử dụng. '@
+ 'Hướng dẫn chuyển nhượng' @
+ 'Sửa đổi lần cuối'@
+ 'Thời gian còn lại'@
+ 'Thời gian còn lại: {$ a}' @
+ 'Phóng to / thu nhỏ vùng' @
+ 'Cài đặt' Yêu cầu nhóm gửi bài 'được bật và một số người dùng không phải là thành viên của bất kỳ nhóm nào hoặc là thành viên của nhiều nhóm, vì vậy không thể gửi bài.' @
+ 'Cho phép gửi cho sinh viên: (id @
+ 'Mở khóa bài dự thi' @
+ 'Vô hạn'@
+ 'Cho phép không giới hạn.' @
+ 'Vô hạn'@
+ 'Thay đổi chưa lưu' @
+ 'Có những thay đổi chưa được lưu đối với các lớp hoặc phản hồi. Bạn có muốn lưu các thay đổi và tiếp tục không? '@
+ 'Cập nhật lớp' @
+ 'Lưu và cập nhật bảng' @
+ 'Nâng cấp không được triển khai trong plugin ({$ a-> type} {$ a-> subtype})' @
+ 'Gia hạn được cấp cho đến khi: {$ a}' @
+ 'Các thay đổi điểm KHÔNG được lưu, vì không thể xác định chúng được gửi cho.' @
+ 'Người dùng ghi đè' @
+ 'Người dùng ghi đè đã xóa' @
+ 'Không học sinh nào có quyền truy cập vào bài tập này.' @
+ 'Người dùng cần gửi: {$ a}' @
+ 'Lớp người dùng' @
+ 'Trạng thái quy trình đánh dấu hợp lệ' @
+ 'Xem một nỗ lực khác' @
+ 'Xem tập hợp đánh dấu trang trạng thái dòng công việc.' @
+ 'Xem trang phân bổ đánh dấu hàng loạt.' @
+ 'Xem phản hồi' @
+ 'Xem phản hồi cho người dùng: {$ a}' @
+ 'Mở trang chấm điểm đầy đủ để cung cấp phản hồi' @
+ 'Xem sổ điểm' @
+ 'Xem trang chấm điểm cho học sinh: (id @
+ 'Xem tất cả các bài nộp' @
+ 'Xem trang bài tập gửi riêng.' @
+ 'Xem trang trạng thái gửi riêng.' @
+ 'Xem bài gửi cho người dùng: {$ a}' @
+ 'Xem bài' @
+ 'Xem đầy đủ' @
+ 'Xem tóm tắt'@
+ 'Xem bảng phân loại trình.' @
+ 'Xem tiết lộ trang xác nhận danh tính sinh viên.' @
+ 'Bộ lọc quy trình làm việc' @
+ '{$ a-> x} trong số {$ a-> y}' @
